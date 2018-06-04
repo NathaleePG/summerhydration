@@ -225,7 +225,7 @@ li span{
 }
 
 #main{
-    margin:200px 1% 100px 1%;
+    margin:200px 0 100px 0;
     position:relative;
     overflow:hidden;
 }
@@ -245,21 +245,21 @@ li span{
 }
 
 #pic1{
-    width:900px;
+    width:98%;
     height: 660px;
     background:url("bg1.jpg") center;
     position:relative;
-    margin:0 auto 50px auto;
+    margin:25px 1% 50px 1%;
 }
 
 #bulk{
-    margin:0 1%;
-    text-align:justify;
+    margin:0 5%;
+    text-align:center;
 }
 
 #bulk > span{
-    font-size:1.25em;
-    color:purple;
+    font-size:1.1em;
+    color:black;
 }
 
 #spec{
@@ -312,11 +312,28 @@ li span{
 }
 
 #pic2{
+    width:98%;
+    height: 1060px;
+    background:url("bg2part2.jpg") center;
     position:relative;
-    left:50px;
-    width:920px;
-    height:730px;
-    background:url("pic2.jpg") center;
+    margin:25px 1% 50px 1%;
+}
+
+#pic3{
+    width:730px;
+    height: 660px;
+    background:url("bg3.jpg") center;
+    position:relative;
+}
+
+#align-hori{
+    position:relative;
+    width:35%;
+    bottom:400px;
+    left:58%;
+    font-size:0.9em;
+    background-color:white;
+    opacity:0.5;
 }
 #last{
     margin-bottom:0;
